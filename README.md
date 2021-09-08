@@ -5,7 +5,8 @@ Repository containing files related to my Cloud Security and Elk Deployment proj
 
 The files in this repository were used to configure the network depicted below.
 
-[[/Images/Network-Diagram.png]]
+![Network-Diagram](https://user-images.githubusercontent.com/90302575/132464623-2ac9fed5-ea0b-4026-9d8a-eabc1917553c.png)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and configuration file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -91,7 +92,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[[Images/Docker-Ps.png]]
+<img width="1501" alt="Docker-Ps" src="https://user-images.githubusercontent.com/90302575/132465130-28cd47ec-e80e-46e4-a05d-0ddc93462842.png">
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -111,7 +112,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the Ansible ELK Installation file to /etc/ansible
+- Copy the install-elk.yml file to /etc/ansible
 - Update the hosts file to include the ELK and web server IP Addresses
 - Run the playbook, and navigate to http://[your.ELK-VM.External.IP]:5601/app/kibana to check that the installation worked as expected.
 
