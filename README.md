@@ -5,7 +5,7 @@ Repository containing files related to my Cloud Security and Elk Deployment proj
 
 The files in this repository were used to configure the network depicted below.
 
-[[Images/Network-Diagram.png]]
+[[/smarj21/Cloud-Security-Project/blob/main/Images/Network-Diagram.png]]
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and configuration file may be used to install only certain pieces of it, such as Filebeat.
 
