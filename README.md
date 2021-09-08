@@ -10,7 +10,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and configuration file may be used to install only certain pieces of it, such as Filebeat.
 
-  [Ansible Configuration] (https://github.com/smarj21/Cloud-Security-Project/blob/main/Ansible/Configure-Docker.yml)
+  - [Ansible Configuration](https://github.com/smarj21/Cloud-Security-Project/blob/main/Ansible/Configure-Docker.yml)
   - Ansible ELK Installation
   - FileBeat Playbook
   - Metricbeat Playbook
@@ -32,7 +32,7 @@ Load balancing ensures that the application will be highly available, in additio
 
 - What aspect of security do load balancers protect?
   
-[Load balancers] (https://github.com/smarj21/Cloud-Security-Project/blob/main/Ansible/Configure-Docker.yml) assist in defending organisations against DDOS attacks. They also assist in protecting availability and web traffic.
+Load balancers assist in defending organisations against DDOS attacks. They also assist in protecting availability and web traffic.
 
 - What is the advantage of a jump box?
 
