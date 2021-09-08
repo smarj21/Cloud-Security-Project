@@ -32,7 +32,7 @@ Load balancing ensures that the application will be highly available, in additio
 
 - What aspect of security do load balancers protect?
   
-Load balancers assist in defending organisations against DDOS attacks. They also assist in protecting availability and web traffic.
+[Load balancers] (https://github.com/smarj21/Cloud-Security-Project/blob/main/Ansible/Configure-Docker.yml) assist in defending organisations against DDOS attacks. They also assist in protecting availability and web traffic.
 
 - What is the advantage of a jump box?
 
